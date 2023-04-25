@@ -253,15 +253,66 @@
     <!-- Right Side: Accounts Form-->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+        <h5 class="text-white" id="offcanvasRightLabel">Create/Add an account</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <!-- Accounts Body - Offcampus -->
+
+      <!-- Accounts Body-Offcavas -->
       <div class="offcanvas-body">
-        Accounts Form Container
+
+        <!-- Accounts form Card -->
+        <div class="card">
+
+          <!-- card body -->
+          <div class="card-body">
+
+            <form action="" class="add-account-form">
+
+              <!-- Form group -->
+              <div class="form-group mb-3">
+                <label for="">Enter Account Name</label>
+                <input type="text" name="account_name" class="form-control" placeholder="Enter Account Name">
+              </div>
+              <!-- End of Form gorup -->
+
+              <!-- Form group -->
+              <div class="form-group mb-3">
+                <label for="">Select Account Type</label>
+                <select name="account_type" class="form-control" id="">
+                  <option value="">-- Select Account --</option>
+                  <option value="check">Check</option>
+                  <option value="savings">Savings</option>
+                  <option value="business">Business</option>
+                </select>
+              </div>
+              <!-- End of Form group -->
+
+
+              <!-- Form group -->
+              <div class="form-group mb-3">
+                <input type="text" name="account_name" class="form-control" placeholder="Enter Account Name">
+              </div>
+              <!-- End of Form gorup -->
+
+            <!-- Form Group -->
+            <div class="form-group my-2">
+              <button id="transact-btn" class="btn btn-md">Add Account</button>
+            </div>
+            <!-- End of Form Group -->
+
+            </form>
+
+          </div>
+          <!-- end of card body -->
+
+        </div>
+        <!-- End of Account form card -->
+
       </div>
+      <!-- End of Accounts Body-Offcavas -->
+
     </div>
-    <!-- Right Side: Accounts Form -->
+    <!--End of Right Side: Accounts Form -->
 
     <!-- Container -->
     <div class="container d-flex">
