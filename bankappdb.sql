@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS bankappdb;
+
 CREATE DATABASE bankappdb;
 
 USE bankappdb;
